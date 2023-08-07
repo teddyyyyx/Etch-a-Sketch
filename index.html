@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div id="etch">
+            <h1>Etch-a-Sketch</h1>
+            <div id="container">    </div>
+
+            <div id="buttons">
+                <button id="clearBtn" onclick="clearGrid()">Clear</button>
+                <div id="sizeAdjustDiv">
+                    <input id="chooseSize" type="input" value="30">
+                    <button>Change Size</button>
+                    <p id="invalidSize">Valid Range: 1 - 80</p>
+                </div>        
+                <button onclick="changeColor('white')">Eraser</button>    
+                <button onclick="changeColor('black')">Black</button>    
+                <button onclick="changeColor('red')">Red</button>    
+                <button onclick="changeColor('blue')">Blue</button>    
+                
+                <!-- <span id="sliderValue">0</span> -->
+            </div>
+
+            <input id="colorSlider"  type="color" value="0000111">
+    </div>
+</body>
+</html> 

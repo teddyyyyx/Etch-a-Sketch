@@ -1,0 +1,16 @@
+#etch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container{
+    display: grid;
+    border: 3px solid black;
+    width: 650px;
+    height: 650px;
+}
+
+.grid-items{
+    border: 0.1px solid rgb(196, 193, 193);
+}
